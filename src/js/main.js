@@ -14,7 +14,7 @@ Date.prototype.addDays = function (days) {
 }
 
 // Global variable
-const title_name = "Mang Arya";
+const title_name = "Mang Arya's Gf";
 
 const menu_list = [
     {

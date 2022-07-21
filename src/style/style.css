@@ -1,9 +1,9 @@
 /* Variable */
 :root {
-	--primary-color: #191919;
-	--secondary-color: #262626;
-  --contras-color: #E39689;
-	--text-color: #d6d6d6;
+	--primary-color: #495C83;
+	--secondary-color: #7A86B6;
+  --contras-color: #A8A4CE;
+	--text-color: #FEFBF6;
 	--shadow-text-color: #979797;
 }
 
@@ -379,7 +379,7 @@ a:hover {
 }
 
 .event-wrap .event__list .event__form {
-  width: 390px;
+  width: 100%;
   flex: 1 0 auto;
   padding: 10px;
   box-sizing: border-box;
