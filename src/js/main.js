@@ -44,6 +44,30 @@ const gallery_list = [
                 link: "https://github.com",
                 link_name: "github.com"
             },
+            {
+                favicon: "https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png",
+                name: "Whatsapp",
+                link: "https://web.whatsapp.com/",
+                link_name: "whatsapp.com"
+            },
+            {
+                favicon: "https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png",
+                name: "Instagram",
+                link: "https://www.instagram.com/awesomecasebali/",
+                link_name: "instagram.com"
+            },
+            {
+                favicon: "https://a.trellocdn.com/prgb/dist/images/pinned-tab-icon.8d4bcc6f7600ccbb6675.svg",
+                name: "Trello",
+                link: "https://trello.com/adesarva/boards",
+                link_name: "trello.com"
+            },
+            {
+                favicon: "https://shopee.co.id/favicon.ico",
+                name: "Shopee",
+                link: "https://shopee.co.id/",
+                link_name: "Shopee.com"
+            },
         ]
     },
     {
