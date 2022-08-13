@@ -88,6 +88,11 @@ a:hover {
   cursor: pointer;
 }
 
+.status span{
+  padding: 0px 10px;
+  letter-spacing: 2px;
+}
+
 /* Home */
 #home {
 	width: 75%;
