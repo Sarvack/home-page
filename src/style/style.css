@@ -1,9 +1,9 @@
 /* Variable */
 :root {
-	--primary-color: #495C83;
-	--secondary-color: #7A86B6;
-  --contras-color: #A8A4CE;
-	--text-color: #FEFBF6;
+	--primary-color: #2B3A55;
+	--secondary-color: #CE7777;
+  --contras-color: #E8C4C4;
+	--text-color: #F2E5E5;
 	--shadow-text-color: #979797;
 }
 
@@ -11,7 +11,8 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: "Bitter", serif;
+	/* font-family: "Bitter", serif; */
+	font-family: "Lacquer", serif;
 }
 
 body {
@@ -89,8 +90,12 @@ a:hover {
 }
 
 .status span{
-  padding: 0px 10px;
+  padding: 10px 10px;
   letter-spacing: 2px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
 }
 
 /* Home */
@@ -108,7 +113,7 @@ a:hover {
 .header {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
 }
 
@@ -182,10 +187,10 @@ a:hover {
 }
 
 .section .card-section .card {
-	width: 220px;
+	width: auto;
 	min-height: 100px;
 	background-color: var(--secondary-color);
-	border-radius: 2px;
+	border-radius: 10px;
 	box-sizing: border-box;
 	padding: 10px;
 	margin: 0px 10px;
@@ -225,6 +230,17 @@ a:hover {
 .section .card__info .info__link span {
 	font-size: 13px;
 	letter-spacing: 2px;
+}
+
+/* clock */
+
+.clock {
+  display: flex;
+  justify-content: center;
+}
+
+.clock h1{
+  font-family: "Anton", serif;
 }
 
 /* Schedule */
