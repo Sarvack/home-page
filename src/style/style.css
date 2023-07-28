@@ -1,10 +1,11 @@
 /* Variable */
 :root {
-	--primary-color: #2B3A55;
-	--secondary-color: #CE7777;
-  --contras-color: #E8C4C4;
-	--text-color: #F2E5E5;
-	--shadow-text-color: #979797;
+	--primary-color: #FFF6EA;
+	--secondary-color: #5588A3;
+  --contras-color: #145374;
+	--text-color: #0B2447;
+	--shadow-text-color: #D6E6F2;
+  --text-header-color: #00334E;
 }
 
 /* GLobal */
@@ -12,7 +13,7 @@
 	padding: 0;
 	margin: 0;
 	/* font-family: "Bitter", serif; */
-	font-family: "Lacquer", serif;
+	font-family: "Nunito", serif;;
 }
 
 body {
@@ -90,12 +91,17 @@ a:hover {
 }
 
 .status span{
-  padding: 10px 10px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: baseline;
+  color: var(--text-header-color);
+}
+
+.status i.fa.fa-heart {
+  color: red;
+  margin-left: 5px;
 }
 
 /* Home */
@@ -108,12 +114,13 @@ a:hover {
 	font-weight: bold;
 	font-size: 44px;
 	padding: 0px 10px;
+  color: var(--text-header-color);
 }
 
 .header {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: start;
   align-items: baseline;
 }
 
@@ -236,11 +243,29 @@ a:hover {
 
 .clock {
   display: flex;
-  justify-content: center;
+  margin-left: auto;
 }
 
-.clock h1{
-  font-family: "Anton", serif;
+.clock h2{
+  font-family: "Nunito", monospace;
+  color: var(--text-header-color);
+}
+
+/* time */
+.time{
+  letter-spacing: 2px;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: baseline;
+  color: var(--text-header-color);
+}
+
+.time .quote {
+  display: flex;
+  justify-content: start;
+  margin-right: auto;
+  padding: 0px 10px;
 }
 
 /* Schedule */

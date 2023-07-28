@@ -62,13 +62,15 @@ window.addEventListener("load", () => {
   
       //get current date and time
       const date = monthList[month] + " " + day + ", " + year;
-      const time = hourTime + ":" + minute + ":" + second + ampm;
+      const time = hourTime + ":" + minute + ":" + second + " " + ampm;
   
       //combine current date and time
-      const dateTime = date + " - " + time;
+      const date_only = date;
+      const time_only = time;
   
       //print current date and time to the DOM
-      document.getElementById("date-time").innerHTML = dateTime;
+      document.getElementById("date").innerHTML = date_only;
+      document.getElementById("time").innerHTML = time_only;
       setTimeout(clock, 1000);
     }
   });
@@ -78,24 +80,24 @@ window.addEventListener("load", () => {
 const title_name = "Ade Sarva";
 
 const menu_list = [
-    // {
-    //     title: "Search",
-    //     icon: "bi bi-search"
-    // },
-    // {
-    //     title: "brichsaint",
-    //     icon: "bi-columns-gap"
-    // },
-    // {
-    //     title: "Schedule",
-    //     icon: "bi-calendar4-week"
-    // }
+    {
+        title: "Search",
+        icon: "bi bi-search"
+    },
+    {
+        title: "Gallery",
+        icon: "bi-columns-gap"
+    },
+    {
+        title: "Schedule",
+        icon: "bi-calendar4-week"
+    }
 ];
 
 const gallery_list = [
     {
         title: "Work",
-        bg_color: "#6D9886",
+        bg_color: "#FBC1BC",
         list: [
             {
                 favicon: "https://gitlab.com/favicon.ico",
@@ -137,7 +139,7 @@ const gallery_list = [
     },
     {
         title: "Programing",
-        bg_color: "#1687A7",
+        bg_color: "#FBC1BC",
         list: [
             {
                 favicon: "https://laravel.com/img/favicon/favicon-32x32.png",
@@ -173,7 +175,7 @@ const gallery_list = [
     },
     {
         title: "Design",
-        bg_color: "#00303F",
+        bg_color: "#FBC1BC",
         list: [
             {
                 favicon: "https://cdn.dribbble.com/assets/favicon-b38525134603b9513174ec887944bde1a869eb6cd414f4d640ee48ab2a15a26b.ico",
@@ -191,7 +193,7 @@ const gallery_list = [
     },
     {
         title: "Entertaint",
-        bg_color: "#D77FA1",
+        bg_color: "#FBC1BC",
         list: [
             {
                 favicon: "https://www.youtube.com/favicon.ico",
@@ -215,7 +217,7 @@ const gallery_list = [
     },
     {
         title: "Personal",
-        bg_color: "#085F63",
+        bg_color: "#FBC1BC",
         list: [
             {
                 favicon: "https://mail.google.com/favicon.ico",
