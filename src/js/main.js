@@ -97,7 +97,7 @@ const menu_list = [
 const gallery_list = [
     {
         title: "Work",
-        bg_color: "#FBC1BC",
+        bg_color: "#BCCEF8",
         list: [
             {
                 favicon: "https://gitlab.com/favicon.ico",
@@ -139,7 +139,7 @@ const gallery_list = [
     },
     {
         title: "Programing",
-        bg_color: "#FBC1BC",
+        bg_color: "#BCCEF8",
         list: [
             {
                 favicon: "https://laravel.com/img/favicon/favicon-32x32.png",
@@ -175,7 +175,7 @@ const gallery_list = [
     },
     {
         title: "Design",
-        bg_color: "#FBC1BC",
+        bg_color: "#BCCEF8",
         list: [
             {
                 favicon: "https://cdn.dribbble.com/assets/favicon-b38525134603b9513174ec887944bde1a869eb6cd414f4d640ee48ab2a15a26b.ico",
@@ -193,7 +193,7 @@ const gallery_list = [
     },
     {
         title: "Entertaint",
-        bg_color: "#FBC1BC",
+        bg_color: "#BCCEF8",
         list: [
             {
                 favicon: "https://www.youtube.com/favicon.ico",
@@ -217,7 +217,7 @@ const gallery_list = [
     },
     {
         title: "Personal",
-        bg_color: "#FBC1BC",
+        bg_color: "#BCCEF8",
         list: [
             {
                 favicon: "https://mail.google.com/favicon.ico",

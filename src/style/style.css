@@ -1,11 +1,11 @@
 /* Variable */
 :root {
-	--primary-color: #FFF6EA;
-	--secondary-color: #5588A3;
-  --contras-color: #145374;
-	--text-color: #0B2447;
+	--primary-color: #C0DEFF;
+	--secondary-color: #ADA2FF;
+  --contras-color: #4A55A2;
+	--text-color: #ffffff;
 	--shadow-text-color: #D6E6F2;
-  --text-header-color: #00334E;
+  --text-header-color: #7286D3;
 }
 
 /* GLobal */
@@ -266,6 +266,7 @@ a:hover {
   justify-content: start;
   margin-right: auto;
   padding: 0px 10px;
+  letter-spacing: 0px;
 }
 
 /* Schedule */
