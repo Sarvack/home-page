@@ -1,11 +1,11 @@
 /* Variable */
 :root {
-	--primary-color: #C0DEFF;
-	--secondary-color: #ADA2FF;
-  --contras-color: #4A55A2;
-	--text-color: #ffffff;
-	--shadow-text-color: #D6E6F2;
-  --text-header-color: #7286D3;
+	--primary-color: #FFDADA;
+	--secondary-color: #DBF6E9;
+  --contras-color: #9DDFD3;
+	--text-color: #31326F;
+	--shadow-text-color: #FFDADA;
+  --text-header-color: #31326F;
 }
 
 /* GLobal */
